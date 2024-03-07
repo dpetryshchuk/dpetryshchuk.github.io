@@ -1,5 +1,5 @@
 {
-  "homepage": "https://developerfolio.js.org/",
+  "homepage": "https://dpetryshchuk.github.io/",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+	"deploy": "gh-pages -b master -d build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b master -d build",
@@ -55,4 +56,4 @@
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
   }
-}
+ }
